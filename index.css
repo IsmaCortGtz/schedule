@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  padding: 15px;
+}
+
+.config-button {
+  background-color: rgb(71, 71, 248);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+}
+
+.days-container {
+  display: flex;
+  gap: 5px;
+  padding: 5px;
+}
+
+.day-item-container {
+  user-select: none;
+  cursor: pointer;
+  flex: 1;
+  padding: 15px 5px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: #d7d7da;
+  transition: all 0.2s;
+}
+
+.day-item-container.selected {
+  background-color: black;
+  color: white;
+}
+
+hr {
+  margin: 10px 0;
+}
+
+.schedule-items-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.schedule-item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  gap: 5px;
+  background-color: #f1c588;
+  overflow: hidden;
+}
+
+.schedule-header {
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 5px 10px;
+  background-color: #fbac3f;
+}
+
+.schedule-time {
+  font-style: italic;
+  padding: 5px 10px;
+}
+
+.schedule-teacher {
+  padding: 5px 10px;
+}
+
+.schedule-link {
+  padding: 10px;
+  background-color: rgb(77, 77, 221);
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+}
